@@ -2,7 +2,7 @@
 
 This is the Repo:
 
-****__Week 01-- Tuesday__****
+****Week 01-- Tuesday****
 
 
 -o *1- Interpreted And Compiled Programming Languages
@@ -12,14 +12,14 @@ This is the Repo:
 * Interpreted Languages: in interpreted languages (Python, JavaScript), there are no build steps. Instead, interpreters operate on the source code of the program while executing it.
 
 
-2- Is Java compiled or interpreted, or both? 
+-o *2- Is Java compiled or interpreted, or both? 
 
 Answer:
 
 Java can be considered both a compiled and an interpreted language because its source code is first compiled into a binary byte-code. This byte-code runs on the Java Virtual Machine (JVM), which is usually a software-based interpreter. The use of compiled byte-code allows the interpreter (the virtual machine) to be small and efficient (and nearly as fast as the CPU running native, compiled code). 
 
 
-3- Pseudocode Currency Converter exercise (a program to determine if a number is greater than 50)
+-o *3- Pseudocode Currency Converter exercise (a program to determine if a number is greater than 50)
 
    1- Start
    2- A < -- 10
@@ -28,7 +28,7 @@ Java can be considered both a compiled and an interpreted language because its s
    5- END
    
 
-4- Learn about High and Low level languages
+-o *4- Learn about High and Low level languages
 
 
 A high-level language (HLL) is a programming language such as C, FORTRAN, or Pascal that enables a programmer to write programs that are more or less independent of a particular type of computer. Such languages are considered high-level because they are closer to human languages and further from machine languages.
@@ -46,9 +46,9 @@ Visual Basic.
 JavaScript.
 
 
-Week 01-- Wednesday
+**Week 01-- Wednesday**
 
-Year or Birth
+-o *1- Year or Birth
 
 1983	11110111111									
 2ˆ10	2ˆ9	2ˆ8	2ˆ8	2ˆ6	2ˆ5	2ˆ4	2ˆ3	2ˆ2	2ˆ1	2ˆ0
