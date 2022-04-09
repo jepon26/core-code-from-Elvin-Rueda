@@ -1,11 +1,11 @@
-# core-code-from-Elvin-Rueda
+** core-code-from-Elvin-Rueda **
 
 This is the Repo:
 
-Week 01-- Tuesday
+****__Week 01-- Tuesday__****
 
 
-1- Interpreted And Compiled Programming Languages
+-o *1- Interpreted And Compiled Programming Languages
 
 * Compiled languages: (C++, Go) are converted directly into machine native code by a compiler program.
 
