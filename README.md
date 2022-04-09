@@ -1,4 +1,5 @@
-# core-code-from-Elvin-Rueda
+
+<h1>core-code-from-Elvin-Rueda</h1>
 
 
 
@@ -6,7 +7,7 @@ This is the Repo:
 
 
 
-[****_Week 01-- Tuesday_****]
+<h3>Week 01-- Tuesday</h3>
 
 
 
