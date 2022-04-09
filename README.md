@@ -2,7 +2,7 @@
 
 This is the Repo:
 
-****Week 01-- Tuesday****
+****_Week 01-- Tuesday_****
 
 
 -o *1- Interpreted And Compiled Programming Languages
@@ -46,7 +46,7 @@ Visual Basic.
 JavaScript.
 
 
-**Week 01-- Wednesday**
+**_Week 01-- Wednesday_**
 
 -o *1- Year or Birth
 
@@ -54,6 +54,9 @@ JavaScript.
 2ˆ10	2ˆ9	2ˆ8	2ˆ8	2ˆ6	2ˆ5	2ˆ4	2ˆ3	2ˆ2	2ˆ1	2ˆ0
 1024	512	256	128	64	   32	   16	    8	   4	   2	    1
 1	    1	    1	    1	    0	    1	   1	    1	   1	   1	    1
+
+
+
 
 
    
