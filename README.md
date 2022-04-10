@@ -124,3 +124,18 @@ _1983= **11110111111**
     li $v0, 10
     syscall
     
+```    
+## Thursday 
+
+### 1. Print special numbers
+
+Using **For**: 
+
+```assembly
+
+for (let i = 0; i < 9; i++) {
+   console.log(i);
+   // more statements
+}
+
+
