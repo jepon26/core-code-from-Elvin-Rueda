@@ -138,4 +138,39 @@ for (let i = 0; i < 9; i++) {
    // more statements
 }
 
+```
 
+
+### 2. Bad code
+
+
+
+```assembly
+
+var cond = false; 
+if (cond == true) 
+{ console.log('The cond variable is true'); } 
+else { console.log('The cond variable is false'); } 
+```
+The code was using an assignment instead of a comparision expression.
+
+
+### 2. Bad code 2
+
+
+
+```assembly
+
+var n = 100;
+
+if (n == 100) {
+  console.log('This is a special number!');
+}
+if (n < 1000) {
+  console.log('');
+} else {
+  console.log('Just a regular number');
+}
+if (n % 10 == 0) {
+  console.log('This number is multiple of 10');
+}
