@@ -5,7 +5,7 @@
 
 ## Index
 
-<a href="">week 1</a>
+<a href="https://github.com/jepon26/core-code-from-Elvin-Rueda/blob/main/Week%201">Week 1</a>
 
 
 ## Tuesday 
