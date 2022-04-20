@@ -8,4 +8,13 @@
 
 ### 1. Multyply
 
-<a href="https://www.codewars.com/users/jepon26/completed_solutions">Multiply</a>
+
+
+```assembly
+
+
+Solution:
+
+   function multiply(a, b){
+ return a * b
+}
