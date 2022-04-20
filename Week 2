@@ -18,3 +18,17 @@ Solution:
    function multiply(a, b){
  return a * b
 }
+
+
+### 1. ASCII Total
+
+
+
+```assembly
+
+
+Solution:
+
+   function multiply(a, b){
+ return a * b
+}
