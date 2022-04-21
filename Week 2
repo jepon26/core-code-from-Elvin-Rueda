@@ -104,6 +104,7 @@ function finalGrade (exam, projects) {
 
 ```assembly
 
+
 ### 1. Holiday VIII - Duty Free
 
 
@@ -119,4 +120,24 @@ function dutyFree(normPrice, discount, hol){
  
 return Math.floor(costHol)
 }
+
+
+
+### 2. Twice as old
+
+
+Solution:
+
+
+```assembly
+
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  // your code here
+  
+  var dad = dadYearsOld
+  var son = 2*(sonYearsOld)
+  
+  return Math.abs(dad-son);
+}
+
 
