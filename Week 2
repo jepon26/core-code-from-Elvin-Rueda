@@ -29,6 +29,11 @@ Solution:
 
 Solution:
 
-   function multiply(a, b){
- return a * b
+  function uniTotal (str) {
+// total up dem unicodes!
+  let total = 0;
+  for (let i = 0, length = str.length; i < length; i++){
+    total += str[i].charCodeAt();
+  }
+  return total;
 }
