@@ -82,3 +82,24 @@ function finalGrade (exam, projects) {
 }
 
 
+## Wednesday 
+
+
+
+```assembly
+
+
+### 1. Holiday VIII - Duty Free
+
+
+Solution:
+
+
+function dutyFree(normPrice, discount, hol){
+ var disc = discount * 0.01
+  var cost = normPrice * disc
+  var costHol = hol / cost
+ 
+return Math.floor(costHol)
+}
+
