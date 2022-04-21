@@ -52,3 +52,15 @@ function getChar(DEL){
    let str = DEL
     return String.fromCharCode(str)
 }
+
+
+
+
+### 4. addBinary
+
+```assembly
+
+
+function addBinary(x,y) {
+  return (x+y).toString(2)
+}
