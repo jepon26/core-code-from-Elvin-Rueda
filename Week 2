@@ -29,11 +29,10 @@ Solution:
 
 Solution:
 
-  function uniTotal (str) {
+ function uniTotal (x) {
 // total up dem unicodes!
-  let total = 0;
-  for (let i = 0, length = str.length; i < length; i++){
-    total += str[i].charCodeAt();
-  }
-  return total;
+  var sum=0;
+  for (var i=0; i<x.length; ++i)
+    sum+=x[i].charCodeAt();
+  return sum;
 }
