@@ -44,5 +44,11 @@ Solution:
 ```assembly
 
 
+
 Solution:
 
+function getChar(DEL){
+  // ... 
+   let str = DEL
+    return String.fromCharCode(str)
+}
