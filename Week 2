@@ -10,10 +10,13 @@
 
 
 
-```assembly
+
 
 
 Solution:
+
+
+```assembly
 
    function multiply(a, b){
  return a * b
@@ -24,10 +27,14 @@ Solution:
 
 
 
-```assembly
+
 
 
 Solution:
+
+
+
+```assembly
 
  function uniTotal (x) {
 // total up dem unicodes!
@@ -41,11 +48,14 @@ Solution:
 ### 3. Char From ASCII Value 
 
 
-```assembly
 
 
 
 Solution:
+
+
+
+```assembly
 
 function getChar(DEL){
   // ... 
@@ -58,9 +68,12 @@ function getChar(DEL){
 
 ### 4. addBinary
 
-```assembly
+
 
 Solution:
+
+
+```assembly
 
 function addBinary(x,y) {
   return (x+y).toString(2)
@@ -70,9 +83,12 @@ function addBinary(x,y) {
 ### 5. Student's Final Grade
 
 
-```assembly
 
 Solution:
+
+
+
+```assembly
 
 function finalGrade (exam, projects) {
   if(exam > 90 || projects > 10) return 100
@@ -88,12 +104,13 @@ function finalGrade (exam, projects) {
 
 ```assembly
 
-
 ### 1. Holiday VIII - Duty Free
 
 
 Solution:
 
+
+```assembly
 
 function dutyFree(normPrice, discount, hol){
  var disc = discount * 0.01
