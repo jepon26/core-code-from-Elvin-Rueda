@@ -141,3 +141,20 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 }
 
 
+
+### 2. Valid Spacing
+
+
+Solution:
+
+
+
+
+```assembly
+
+function validSpacing(x) {
+  // write your code here
+  if (x === "") return true
+  return !x.split(" ").includes("")
+}
+
