@@ -22,6 +22,8 @@ Solution:
  return a * b
 }
 
+```
+
 
 ### 2. ASCII Total
 
@@ -43,6 +45,7 @@ Solution:
     sum+=x[i].charCodeAt();
   return sum;
 }
+```
 
     
 ### 3. Char From ASCII Value 
@@ -62,7 +65,7 @@ function getChar(DEL){
    let str = DEL
     return String.fromCharCode(str)
 }
-
+```
 
 
 
@@ -78,7 +81,7 @@ Solution:
 function addBinary(x,y) {
   return (x+y).toString(2)
 }
-
+```
 
 ### 5. Student's Final Grade
 
@@ -96,7 +99,7 @@ function finalGrade (exam, projects) {
   if(exam > 50 && projects > 1) return 75
   return 0;
 }
-
+```
 
 ## Wednesday 
 
@@ -120,7 +123,7 @@ function dutyFree(normPrice, discount, hol){
  
 return Math.floor(costHol)
 }
-
+```
 
 
 ### 2. Twice as old
@@ -139,7 +142,7 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
   
   return Math.abs(dad-son);
 }
-
+```
 
 
 ### 3. Valid Spacing
@@ -157,4 +160,4 @@ function validSpacing(x) {
   if (x === "") return true
   return !x.split(" ").includes("")
 }
-
+```
