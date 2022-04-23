@@ -16,7 +16,7 @@
 Solution:
 
 
-```assembly
+```javascript
 
    function multiply(a, b){
  return a * b
@@ -36,7 +36,7 @@ Solution:
 
 
 
-```assembly
+```javascript
 
  function uniTotal (x) {
 // total up dem unicodes!
@@ -58,7 +58,7 @@ Solution:
 
 
 
-```assembly
+```javascript
 
 function getChar(DEL){
   // ... 
@@ -76,7 +76,7 @@ function getChar(DEL){
 Solution:
 
 
-```assembly
+```javascript
 
 function addBinary(x,y) {
   return (x+y).toString(2)
@@ -91,7 +91,7 @@ Solution:
 
 
 
-```assembly
+```javascript
 
 function finalGrade (exam, projects) {
   if(exam > 90 || projects > 10) return 100
@@ -105,7 +105,7 @@ function finalGrade (exam, projects) {
 
 
 
-```assembly
+```javascript
 
 
 ### 1. Holiday VIII - Duty Free
@@ -114,7 +114,7 @@ function finalGrade (exam, projects) {
 Solution:
 
 
-```assembly
+```javascript
 
 function dutyFree(normPrice, discount, hol){
  var disc = discount * 0.01
@@ -132,7 +132,7 @@ return Math.floor(costHol)
 Solution:
 
 
-```assembly
+``javascript
 
 function twiceAsOld(dadYearsOld, sonYearsOld) {
   // your code here
@@ -153,7 +153,7 @@ Solution:
 
 
 
-```assembly
+```javascript
 
 function validSpacing(x) {
   // write your code here
