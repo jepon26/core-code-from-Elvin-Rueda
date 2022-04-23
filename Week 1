@@ -131,7 +131,7 @@ _1983= **11110111111**
 
 Using **For**: 
 
-```assembly
+```javascript
 
 for (let i = 0; i < 9; i++) {
    console.log(i);
@@ -145,7 +145,7 @@ for (let i = 0; i < 9; i++) {
 
 
 
-```assembly
+```javascript
 
 var cond = false; 
 if (cond == true) 
@@ -159,7 +159,7 @@ The code was using an assignment instead of a comparision expression.
 
 
 
-```assembly
+```javascript
 
 var n = 100;
 
@@ -170,3 +170,5 @@ if (n == 100) {
 } else {
   console.log('Just a regular number');
 }
+
+```
