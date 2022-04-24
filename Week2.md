@@ -105,7 +105,7 @@ function finalGrade (exam, projects) {
 
 
 
-```javascript
+
 
 
 ### 1. Holiday VIII - Duty Free
