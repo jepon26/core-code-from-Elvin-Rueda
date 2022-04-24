@@ -101,9 +101,11 @@ function finalGrade (exam, projects) {
 }
 ```
 
+
+
+
+
 ## Wednesday 
-
-
 
 
 
@@ -165,3 +167,28 @@ function validSpacing(x) {
   return !x.split(" ").includes("")
 }
 ```
+
+
+
+### 4. Fake Binary
+
+
+
+
+Solution:
+
+
+
+
+```javascript
+function fakeBin(y){
+  return y.replace(/[01234]/g, '0').replace(/[56789]/g, '1');
+}
+
+
+
+```
+
+
+
+
