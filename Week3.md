@@ -1,4 +1,19 @@
+# core-code-from-Elvin-Rueda
 
+
+## Monday
+
+
+
+
+### 1. Who likes it?
+
+
+
+
+
+
+Solution:
  
  
  ```Javascript
