@@ -35,7 +35,7 @@ Solution:
 
 
 
-### 1. Bit Counting
+### 2. Bit Counting
 
 
 
@@ -52,3 +52,25 @@ var countBits = function(n) {
 
   return n.toString(2).split('0').join('').length;
 };
+```
+
+
+### 3. Your order, please
+
+
+
+
+
+
+Solution:
+
+
+```Javascript
+
+function order(words){
+  // ...
+   return words.split(' ').sort(function(a,b){
+    return a.match(/\d/) - b.match(/\d/);
+  }).join(' ');
+}
+```
