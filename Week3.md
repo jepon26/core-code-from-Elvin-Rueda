@@ -32,3 +32,23 @@ Solution:
 }
 
 ```
+
+
+
+### 1. Bit Counting
+
+
+
+
+
+
+Solution:
+
+
+```Javascript
+
+var countBits = function(n) {
+  // Program Me
+
+  return n.toString(2).split('0').join('').length;
+};
