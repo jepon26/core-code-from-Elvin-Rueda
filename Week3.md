@@ -74,3 +74,22 @@ function order(words){
   }).join(' ');
 }
 ```
+
+
+
+## Thuesday
+
+
+
+
+### 1. 
+
+
+
+
+
+
+Solution:
+ 
+ 
+ ```Javascript
