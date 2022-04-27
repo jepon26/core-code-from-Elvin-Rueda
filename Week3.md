@@ -109,4 +109,17 @@ const arr = str.split(' ')
 
 ```
  
+ ### 1. Counting Duplicates
+
+
+
+
+
+
+Solution:
+ 
+ 
+ ```Javascript
+ 
+ 
  
