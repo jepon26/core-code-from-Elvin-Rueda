@@ -82,7 +82,7 @@ function order(words){
 
 
 
-### 1. 
+### 1. Simple Pig Latin
 
 
 
