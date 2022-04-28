@@ -173,3 +173,20 @@ Solution:
 ```
  
  
+## Tuesday
+
+
+
+
+### 1. Simple pig latin
+
+
+
+
+
+
+Solution:
+ 
+ 
+ ```Javascript
+ 
