@@ -94,8 +94,7 @@ Solution:
  
  ```Javascript
  
- 
- function pigIt(str){
+function pigIt(str){
   //Code here
 const arr = str.split(' ')
   return arr
@@ -173,12 +172,12 @@ Solution:
 ```
  
  
-## Tuesday
+## Wednesday
 
 
 
 
-### 1. Simple pig latin
+### 1. Valid Parentheses
 
 
 
@@ -191,16 +190,6 @@ Solution:
  ```Javascript
  
  
- function pigIt(str){
-  //Code here
-  str = str.trim().split(/\s{1,}/);
-    return str.map(val => {
-        if (/^[A-Za-z]+$/.test(val)) {
-            return `${val.slice(1)}${val.slice(0, 1)}ay`;
-        }
-        return val;
-    }).join(' ');
-}
 
 ```
  
