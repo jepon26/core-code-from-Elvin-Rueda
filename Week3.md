@@ -109,7 +109,7 @@ const arr = str.split(' ')
 
 ```
  
- ### 1. Counting Duplicates
+ ### 2. Counting Duplicates
 
 
 
@@ -146,6 +146,18 @@ Solution:
        
  ```      
  
+ 
+  ### 3. Decode The Morse Code
+
+
+
+
+
+
+Solution:
+ 
+ 
+ ```Javascript
  
  
  
