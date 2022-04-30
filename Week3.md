@@ -289,5 +289,49 @@ while (z > 0) {
 }
 
 ```
+
+
+
+
+### 2. Encrypt this!
+
+
+
+
+Solution:
  
+ 
+ ```Javascript
+ 
+var encryptThis = function(text) {
+  // Implement me! :)
+  let RuedadArr = text.split(' ');
+  let output = [];
+  
+  RuedadArr.forEach(str => {
+    if (str.length === 1) {
+      output.push(str.charCodeAt(0));
+    } 
+    else {
+      let tempStr = str.split('');
+      tempStr[0] = str.charCodeAt(0);
+      tempStr[1] = str[str.length - 1];
+      tempStr[str.length - 1] = str[1];
+      output.push(tempStr.join(''));
+    }
+  });
+  
+  return output.join(' ');
+}
+
+console.log(encryptThis("Hello World!"));
+
+````
+
+
+
+
+
+
+
  
