@@ -256,4 +256,38 @@ Solution:
 }
 
 ```
+
+
+
+
+## Thursday
+
+
+
+
+### 1. Fold An Array
+
+
+
+
+
+
+Solution:
+ 
+ 
+ ```Javascript
+ 
+ const foldArray = (y, z) =>{
+while (z > 0) {
+    const l = y.length;
+    if (l === 1) return y;
+    const x = Math.floor(l / 2);
+    y = y.map((e, i, y) => i < x ? e + y[l - i - 1] : e).slice(0, -x); 
+    z--;
+  }  
+  return y;
+}
+
+```
+ 
  
