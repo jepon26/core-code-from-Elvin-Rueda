@@ -22,3 +22,25 @@ Solution:
   }
   
   ````
+
+
+
+### 2. Get number from string
+
+
+
+
+Solution:
+ 
+ 
+ ```Javascript
+
+
+function getNumberFromString(s) {
+  let regex = /\D/g;
+  let newString = s.replace(regex, "");
+  return Number(newString);
+}
+
+
+```
