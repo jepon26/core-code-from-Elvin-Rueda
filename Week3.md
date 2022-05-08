@@ -232,7 +232,7 @@ function toCamelCase(str){
 ```
  
  
- ### 3. Unque in Order
+ ### 3. Unique in Order
 
 
 
