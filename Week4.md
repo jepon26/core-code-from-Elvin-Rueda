@@ -44,3 +44,28 @@ function getNumberFromString(s) {
 
 
 ```
+
+
+
+
+## Thursday
+
+
+### 1. String cleaning
+
+
+
+
+Solution:
+ 
+ 
+ ```Javascript
+
+function stringClean(s){
+  // Function will return the cleaned string
+  var regex = /\d/g;
+  return s.replace(regex, "");
+
+}
+
+```
