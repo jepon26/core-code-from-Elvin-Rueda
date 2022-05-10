@@ -27,3 +27,31 @@ Solution:
 }
 
 ```
+
+
+### 1. Reverse or rotate?
+
+
+
+
+Solution:
+ 
+ 
+ ```Javascript
+ 
+ function revrot(str, sz) {
+    // your code
+  if(!sz||sz<0||sz>str.length)return '';
+  var arr=str.match(new RegExp('\\d{'+sz+'}','g'));
+  return arr.map(function(x){
+  if(x.toString().split('').reduce((y,x)=>y+x*1,0)%2===0){
+    return x.split('').reverse().join('');
+  }
+  else return x.slice(1)+x[0];
+                    }).join('');
+}
+  
+  
+  
+ ```
+ 
