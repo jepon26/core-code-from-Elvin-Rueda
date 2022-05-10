@@ -29,7 +29,7 @@ Solution:
 ```
 
 
-### 1. Reverse or rotate?
+### 2. Reverse or rotate?
 
 
 
