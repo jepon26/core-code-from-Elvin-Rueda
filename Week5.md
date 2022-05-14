@@ -182,3 +182,18 @@ function find(rats) {
 ```
 
 
+### 2. Array.dif
+
+
+
+
+Solution:
+ 
+ 
+ ```Javascript
+
+function arrayDiff(a, b) {
+  return a.filter(x => !b.includes(x));
+}
+
+```
