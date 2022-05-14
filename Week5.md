@@ -58,7 +58,7 @@ Solution:
  
  
  
- ## Thursday
+ ## Thuesday
 
 
 
@@ -101,7 +101,7 @@ users.forEach(logPerson);
 
 ```
 
-### 1. TypeScript Unions 
+### 2. TypeScript Unions 
 
 
 
@@ -154,6 +154,30 @@ export function logPerson(user: Person) {
 }
 
 persons.forEach(logPerson);
+
+```
+
+
+## Thursday
+
+
+
+
+### 1. What's Your Poison? 
+
+
+
+
+Solution:
+ 
+ 
+ ```Javascript
+
+function find(rats) {
+    // return number of poisoned bottle
+  return rats.reduce((x, y) => x+(1<<y),0);
+}
+
 
 ```
 
