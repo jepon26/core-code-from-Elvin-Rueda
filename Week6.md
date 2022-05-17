@@ -25,3 +25,30 @@ export function squareSum(numbers: number[]): number {
 }
 
 ```
+
+### 2. Growth of a Population
+
+
+
+
+Solution:
+ 
+ 
+ ```Typescript
+ 
+ export class G964 {
+
+    public static nbYear = (p0, percent, aug, p) => {
+        // your code
+  let years = 0;
+      for(years; p0 < p; years++){
+        p0 += p0 *(percent / 100) + aug;
+      }
+      return years;
+}
+}
+
+```
+ 
+ 
+ 
