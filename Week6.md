@@ -87,5 +87,41 @@ Solution:
 
 
 ```
+
+
+
+## Thursday
+
+
+
+
+### 1. A Rule of Divisibility by 13
+
+
+
+
+Solution:
  
+ 
+ ```Typescript
+ 
+ export function thirt(n: number): number {
+  // your code
+  const x = n.toString();
+  const pattern = [1, 10, 9, 12, 3, 4];
+  let index = 0;
+  let sum = 0;
+
+  for (let i = x.length - 1; i >= 0; i--) {
+    sum += +x[i] * pattern[index];
+    index = index >= 5 ? 0 : ++index;
+  }
+
+  if (sum === n) return sum;
+  return thirt(sum);
+
+}
+
+
+  ```
  
