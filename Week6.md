@@ -61,4 +61,11 @@ Solution:
  ```Typescript
  
  
+ export function accum(s: string): string {
+  return s.split('').map((ja, i) => ja.toUpperCase() + (ja.toLowerCase()).repeat(i)).join ('-')
+}
+
+```
+ 
+ 
  
