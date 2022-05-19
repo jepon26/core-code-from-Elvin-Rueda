@@ -126,7 +126,7 @@ Solution:
   ```
   
   
-  ### 1. A Rule of Divisibility by 13
+  ### 2. Playing With Digits
 
 
 
@@ -149,6 +149,26 @@ Solution:
   
   ```
  
+ 
+ ### 3. Valid Braces
+
+
+
+
+Solution:
+ 
+ 
+ ```Typescript
+ 
+ 
+ export const validBraces = (braces: string): boolean => {
+  const x = braces.replace(/\(\)|\[\]|\{\}/g, '');
+  if (x.length === 0) return true;
+  else if (x === braces) return false;
+  else return validBraces(x);
+}
+
+```
  
  
  
