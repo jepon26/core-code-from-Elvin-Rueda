@@ -170,5 +170,30 @@ Solution:
 
 ```
  
+  ### 4. Tic-Tac-Toe
+
+
+
+
+Solution:
  
+ 
+ ```Typescript
+ 
+ 
+ function solveTTT(board) {
+  const win = xs => xs.map(x=>board[x]).join('') === 'XX'
+  for (const xs of [[0, 1, 2],
+                   [3, 4, 5],
+                   [6, 7, 8],
+                   [0, 3, 6],
+                   [1, 4, 7],
+                   [2, 5, 8],
+                   [0, 4, 8],
+                   [2, 4, 6]]) if(win(xs)) return xs.find(x=>!board[x])
+return board.findIndex(x=>!x);
+  }
+  
+  ```
+  
  
