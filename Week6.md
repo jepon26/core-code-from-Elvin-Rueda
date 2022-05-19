@@ -124,4 +124,31 @@ Solution:
 
 
   ```
+  
+  
+  ### 1. A Rule of Divisibility by 13
+
+
+
+
+Solution:
+ 
+ 
+ ```Typescript
+ 
+ 
+ export class G964 {
+
+    public static digPow = (n: number, p: number) => {
+        // your code
+     var y = String(n).split("").map(a=>parseInt(a)).reduce((s, d, i) => s + Math.pow(d, p + i), 0)
+  return y % n ? -1 : y / n
+}
+  }
+  
+  
+  ```
+ 
+ 
+ 
  
