@@ -170,7 +170,7 @@ Solution:
 
 ```
  
-  ### 4. Tic-Tac-Toe
+ ### 4. Tic-Tac-Toe
 
 
 
@@ -196,4 +196,30 @@ return board.findIndex(x=>!x);
   
   ```
   
+  
+  ### 5. Tic-Tac-Toe-like table Generator
+
+
+
+
+Solution:
  
+ 
+ ```Typescript
+  
+ function displayBoard(board, width){
+  //your code here
+  const display = []
+  let row = []
+  for (let i = 0; i < board.length; i++) {
+    row.push(` ${board[i]} `)
+    if (row.length === width) {
+      display.push(row.join('|'))
+      row = []
+    }
+  }
+  return display.join(`\n${'-'.repeat(display[0].length)}\n`)
+} 
+
+
+ ```
