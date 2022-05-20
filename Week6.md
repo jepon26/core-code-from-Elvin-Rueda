@@ -324,8 +324,29 @@ export class G964 {
   
   ```
  
- ```Typescript
+### 4.  Sums of Parts
+
+
+
+Solution:
+
+
+```Typescript
  
+ 
+ export function partsSums(ls: number[]): number[] {
+let sumOfParts: number[] = new Array<number>(ls.length + 1);
+    sumOfParts[0] = (ls.reduce( (sum, value) => sum + value ,0 ));
+    for (let i = 1; i < ls.length; i++) {
+        sumOfParts[i] = sumOfParts[i-1] - ls[i-1];
+    };
+    if (ls.length > 0) {
+      sumOfParts[ls.length] = (0);
+    };
+    return sumOfParts;
+}
+
+```
  
 
  
