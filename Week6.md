@@ -223,3 +223,73 @@ Solution:
 
 
  ```
+ 
+ 
+ 
+ 
+ 
+ ## Wednesday
+
+
+
+
+### 1. Duplicate Encoder
+
+
+
+
+Solution:
+ 
+ 
+ ```Typescript
+ 
+ export function duplicateEncode(word: string){
+    // ...
+   return word
+        .toLowerCase()
+        .split('')
+        .map( function (x, y, z) {
+            return z.indexOf(x) == z.lastIndexOf(x) ? '(' : ')'
+        })
+        .join('');
+}
+ 
+ 
+ 
+ ```
+ 
+ 
+ 
+ 
+ ### 2. Find the odd int
+
+
+
+
+Solution:
+ 
+ 
+ ```Typescript
+ 
+export const findOdd = (xs: number[]): number => {
+  // happy coding!
+  const sorted = xs.sort();
+
+  let key = sorted[0];
+  let count = 1;
+  sorted.shift();
+
+  for (let value of sorted) {
+    if (key !== value) {
+      if (count % 2 !== 0) return key;
+      count = 0;
+      key = value;
+    }
+    count++;
+  }
+
+  if (count % 2 !== 0) return key;
+  return 0;
+};
+
+```
