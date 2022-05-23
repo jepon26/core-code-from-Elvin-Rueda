@@ -347,7 +347,133 @@ let sumOfParts: number[] = new Array<number>(ls.length + 1);
 }
 
 ```
- 
 
+
+ ## Thursday
+
+
+
+
+### 1. Tile
+
+
+
+
+Solution:
  
  
+ ```Typescript
+ 
+export class Tile {
+  letter: string;
+  value: number;
+
+  constructor(letter:string, value:number){
+    this.letter = letter;
+    this.value = value;
+   }
+
+  printTile(){
+    console.log(`
+    ==================
+    Letter: ${this.letter}
+    Value: ${this.value}
+    ==================
+    `);
+  }
+}
+
+```
+ 
+ 
+ ### 2. Time
+
+
+
+
+Solution:
+ 
+ 
+ ```Typescript
+ 
+ 
+ export class Time {
+  hour: number;
+  minute: number;
+  second: number;
+
+  constructor(hour:number, minute:number, second:number){
+    this.hour = hour;
+    this.minute = minute;
+    this.second = second;
+   }
+  
+  printTime () {
+    console.log(`
+    ==================
+    Hours: ${this.hour}
+    Minutes: ${this.minute}
+    Seconds: ${this.second}
+    ==================
+   
+    `);
+  }
+
+  getInSeconds():number {
+    const second = this.hour * 3600 + this.minute * 60 + this.second;
+    return this.second;
+  }
+  
+}
+
+
+```
+
+
+
+### 2. Rational
+
+
+
+
+Solution:
+ 
+ 
+ ```Typescript
+
+export class Rational {
+  numerator: number;
+  denominator: number;
+  
+  constructor(numerator:number, denominator:number){
+    this.numerator = numerator;
+    this.denominator = denominator;
+   }
+  
+  printRational () {
+    console.log(`${this.numerator} / ${this.denominator}`);
+  }
+
+  invert () {
+    [this.numerator, this.denominator ] = [this.denominator, this.numerator ];
+  }
+
+  toFloat () :number {
+    return this.denominator / this.numerator ;
+  }
+
+  gcd (num:number, den:number):number{
+    if (den == 0) return num;
+    return this.gcd(den, num % den);
+  }
+  
+  reduce () {
+    const gcd = this.gcd(this.numerator, this.denominator);
+    this.numerator = this.numerator / gcd;
+    this.denominator = this.denominator / gcd;
+  }
+
+}
+
+```
+
