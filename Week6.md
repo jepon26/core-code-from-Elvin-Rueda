@@ -324,7 +324,7 @@ export class G964 {
   
   ```
  
-### 4.  Sums of Parts
+### 4. Sums of Parts
 
 
 
@@ -347,6 +347,30 @@ let sumOfParts: number[] = new Array<number>(ls.length + 1);
 }
 
 ```
+
+
+
+
+
+### 5. Consecutive Strings
+
+
+
+Solution:
+
+
+```Typescript
+
+
+export function longestConsec(strarr: string[], k: number): string {
+  if (k > strarr.length || k < 1) return '';
+  return strarr.reduce(function(prevLongest, c, i, a) {
+    var str = a.slice(i, i + k).join('');
+    return str.length > prevLongest.length ? str : prevLongest;
+  }, 
+  '');
+}
+
 
 
  ## Thursday
