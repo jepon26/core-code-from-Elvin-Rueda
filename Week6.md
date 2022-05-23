@@ -371,9 +371,10 @@ export function longestConsec(strarr: string[], k: number): string {
   '');
 }
 
+```
 
 
- ## Thursday
+## Thursday
 
 
 
