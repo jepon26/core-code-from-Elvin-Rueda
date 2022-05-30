@@ -18,6 +18,7 @@
 
 ## [Exercises-Week7](https://github.com/jepon26/core-code-from-Elvin-Rueda/blob/main/Week7.md)
 
+## [Exercises-Week8](https://github.com/jepon26/core-code-from-Elvin-Rueda/blob/main/Week8.md)
 
 
 
