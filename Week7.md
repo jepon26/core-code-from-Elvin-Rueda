@@ -9,7 +9,7 @@
 ### 1. Input/Output
 
 >### Input `Example` ❓
-<img src="./assets/input.png" alt="Input" width="500">
+<img src="ayd.jpg alt="Input" width="500">
 
 
  
