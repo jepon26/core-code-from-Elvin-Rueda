@@ -8,16 +8,10 @@
 
 ### 1. Input/Output
 
+>### Input `Example` ❓
+<img src="./assets/input.png" alt="Input" width="500">
 
 
-
-Solution:
- 
- 
- ```Typescript
- 
- 
- ```
  
  ### 2. Readme - OOP
 
