@@ -9,7 +9,7 @@
 ### 1. Input/Output
 
 >### Confirm `Input` 
-<img src="./assets/AYD.JPG" alt="Input" width="500">
+<img src="./Assets/AYD.JPG" alt="Input" width="500">
 
  
  ### 2. Readme - OOP
