@@ -16,6 +16,9 @@
 <img src="./Assets/Select Input.JPG" alt="Input" width="500">
 
 
+>### Single `Input` 
+<img src="./Assets/Single Input.JPG" alt="Input" width="500">
+
 
  
  ### 2. Readme - OOP
