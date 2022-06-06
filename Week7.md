@@ -8,9 +8,8 @@
 
 ### 1. Input/Output
 
->### Input `Example` ❓
-<img src="ayd.jpg alt="Input" width="500">
-
+>### Confirm `Input` 
+<img src="./assets/AYD.JPG" alt="Input" width="500">
 
  
  ### 2. Readme - OOP
