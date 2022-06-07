@@ -9,11 +9,11 @@
 ### 1. Input/Output
 
 >### Confirm `Input` 
-<img src="./Assets/Select.gif" alt="Input" width="500">
+<img src="./Assets/Input.gif" alt="Input" width="500">
 
 
 >### Select `Input` 
-<img src="./Assets/Select Input.JPG" alt="Input" width="500">
+<img src="./Assets/Select.gif" alt="Input" width="500">
 
 
 >### Single `Input` 
