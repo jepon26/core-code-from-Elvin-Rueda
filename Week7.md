@@ -9,7 +9,7 @@
 ### 1. Input/Output
 
 >### Confirm `Input` 
-<img src="./Assets/Input.gif" alt="Input" width="500">
+<img src="./Assets/Confirm.gif" alt="Input" width="500">
 
 
 >### Select `Input` 
@@ -17,7 +17,7 @@
 
 
 >### Single `Input` 
-<img src="./Assets/Single Input.JPG" alt="Input" width="500">
+<img src="./Assets/Single.gif" alt="Input" width="500">
 
 
  
