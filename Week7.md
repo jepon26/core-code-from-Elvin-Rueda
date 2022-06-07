@@ -9,7 +9,7 @@
 ### 1. Input/Output
 
 >### Confirm `Input` 
-<img src="./Assets/AYD.JPG" alt="Input" width="500">
+<img src="./Assets/select.gif" alt="Input" width="500">
 
 
 >### Select `Input` 
