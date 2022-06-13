@@ -44,6 +44,36 @@ class Rectangle extends Polygon {
 Inheritance is an aspect of OOPs languages, which provides the ability of a program to create a new class from an existing class. It is a mechanism which acquires the properties and behaviors of a class from another class. The class whose members are inherited is called the base class, and the class that inherits those members is called the **derived/child/subclass.** In child class, we can override or modify the behaviors of its parent class.
 
 
+Code:
+
+
+```TypeScript
+class Car {   
+    Color:string     
+    constructor(color:string) {   
+       this.Color = color  
+    }   
+ }   
+ class Toyota extends Car {   
+     Price: number  
+     constructor(color: string, price: number) {  
+         super(color);  
+         this.Price = price;  
+     }  
+     display():void {  
+         console.log("Color of Toyota car: " + this.Color);  
+         console.log("Price of Toyota car: " + this.Price);  
+     }  
+ }  
+ let obj = new Toyota("Red", 45000 );  
+ obj.display(); 
+
+
+```
+
+
+
+
 >### Confirm `Inheritance` 
 <img src="./Assets/Confirm.gif" alt="Input" width="500">
 
