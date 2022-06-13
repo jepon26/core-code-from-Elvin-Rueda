@@ -44,6 +44,10 @@ class Rectangle extends Polygon {
 Inheritance is an aspect of OOPs languages, which provides the ability of a program to create a new class from an existing class. It is a mechanism which acquires the properties and behaviors of a class from another class. The class whose members are inherited is called the base class, and the class that inherits those members is called the **derived/child/subclass.** In child class, we can override or modify the behaviors of its parent class.
 
 
+>### Confirm `Inheritance` 
+<img src="./Assets/Confirm.gif" alt="Input" width="500">
+
+
 
 
 
