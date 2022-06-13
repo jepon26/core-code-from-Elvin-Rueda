@@ -53,6 +53,11 @@ let emp2: Person = emp.find('Elvin');
 
 ```
 
+>### Confirm `Abstract` 
+<img src="./Assets/abstract.gif" alt="Input" width="500">
+
+
+
 
 2. ### Inheritance
 
