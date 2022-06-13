@@ -75,7 +75,7 @@ class Car {
 
 
 >### Confirm `Inheritance` 
-<img src="./Assets/Confirm.gif" alt="Input" width="500">
+<img src="./Assets/inheritance.gif" alt="Input" width="500">
 
 
 
